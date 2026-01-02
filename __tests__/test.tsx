@@ -184,7 +184,7 @@ describe("Body Component", () => {
           styles: { fill: "#ff0000", stroke: "#000000" },
         },
         { slug: "biceps", color: "#00ff00" },
-        { slug: "deltoids", intensity: 2 },
+        { slug: "front-deltoids", intensity: 2 },
       ];
 
       const { toJSON } = render(

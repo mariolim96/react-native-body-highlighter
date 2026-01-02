@@ -39,7 +39,7 @@ export default function App() {
       <Body
         data={[
           { slug: "chest", intensity: 1, side: "left" },
-          { slug: "biceps", intensity: 2 },
+          { slug: "front-deltoids", intensity: 2 },
         ]}
         gender="female"
         side="front"
@@ -95,7 +95,7 @@ export default function App() {
       <Body
         data={[
           { slug: "chest", intensity: 1, side: "left" },
-          { slug: "biceps", intensity: 1 },
+          { slug: "rear-deltoids", intensity: 1 },
           selectedBodyPart,
         ]}
         onBodyPartPress={(e, side) =>
@@ -205,7 +205,9 @@ The fill color for each body part is determined in the following priority order 
 | calves       | Both                         |
 | hair         | Both                         |
 | neck         | Both                         |
-| deltoids     | Both                         |
+| front-deltoids | Front                        |
+| middle-deltoids| Front                        |
+| rear-deltoids  | Back                         |
 | hands        | Both                         |
 | feet         | Both                         |
 | head         | Both (Front only for female) |

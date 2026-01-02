@@ -6,7 +6,9 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "./dist",
-    "declaration": true
+    "declaration": true,
+    "skipLibCheck": true
   },
+  "include": ["index.tsx", "assets/**/*", "components/**/*", "utils/**/*"],
   "exclude": ["__tests__", "node_modules", "dist"]
 }

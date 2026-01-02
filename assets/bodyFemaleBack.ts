@@ -36,7 +36,7 @@ export const bodyFemaleBack: BodyPart[] = [
     },
   },
   {
-    slug: "deltoids",
+    slug: "rear-deltoids",
     color: "#454545",
     path: {
       left: [
